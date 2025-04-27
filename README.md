@@ -9,7 +9,7 @@ A fork of [Bluefin LTS](https://github.com/ublue-os/bluefin-lts) with **OpenVPN*
 
 ## Overview
 
-- **Base:** Bluefin LTS (Fedora Atomic OSTree template)
+- **Base:** Bluefin LTS (CentOS 10 Stream)
 - **Added packages:**
   - OpenVPN (via NetworkManager plugin)
   - FUSE (Filesystem in Userspace)
