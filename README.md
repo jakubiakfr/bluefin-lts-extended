@@ -1,7 +1,7 @@
 # bluefin-lts-extended
 [![bluebuild build badge](https://github.com/jakubiakfr/bluefin-lts-extended/actions/workflows/build.yml/badge.svg)](https://github.com/jakubiakfr/bluefin-lts-extended/actions/workflows/build.yml)
 
-A fork of [Bluefin LTS](https://github.com/jakubiakfr/bluefin-lts) with **OpenVPN** and **FUSE** support added. This image builds on the stable Bluefin base, extending it for users who need encrypted VPN connectivity and filesystem in userspace (FUSE) capabilities.
+A fork of [Bluefin LTS](https://github.com/ublue-os/bluefin-lts) with **OpenVPN** and **FUSE** support added. This image builds on the stable Bluefin base, extending it for users who need encrypted VPN connectivity and filesystem in userspace (FUSE) capabilities.
 
 > **Note:** The `nm-openvpn` system user is _not_ created by default. If you plan to use OpenVPN via NetworkManager, you must create this user and group manually (see below).
 
